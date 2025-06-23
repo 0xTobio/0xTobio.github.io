@@ -31,11 +31,11 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		// Leave this array empty to use the default favicon
-		 {
-		   src: '/favicon/favicon.ico',    // Path of the favicon, relative to the /public directory
-		   // theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		   // sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		 }
+		{
+			src: "/favicon/favicon.ico", // Path of the favicon, relative to the /public directory
+			// theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+			// sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		},
 	],
 };
 
@@ -56,7 +56,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "0xTobio",
-	bio: "\"Hành trình vạn dặm bắt đầu từ một bước chân.\"",
+	bio: '"Hành trình vạn dặm bắt đầu từ một bước chân."',
 	links: [
 		{
 			name: "Linkedin",
@@ -64,6 +64,11 @@ export const profileConfig: ProfileConfig = {
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
 			url: "https://www.linkedin.com/in/quangthaictc/",
+		},
+		{
+			name: "Discord",
+			icon: "fa6-brands:discord",
+			url: "https://discord.gg/N2K9kmMsfZ",
 		},
 		{
 			name: "GitHub",
