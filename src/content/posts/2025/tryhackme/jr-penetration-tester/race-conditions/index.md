@@ -148,7 +148,7 @@ Tiếp theo, mình chuyển request này sang tab **Repeater**, tạo một grou
 
 ![](5.png)
 
-### Trước khi gửi group, mình sẽ giải thích sơ qua về 3 cách gửi:
+**Trước khi gửi group, mình sẽ giải thích sơ qua về 3 cách gửi:**
 
 ![](6.png)
 
@@ -167,7 +167,7 @@ Mình chọn cách **Send group in parallel**. Tất cả các request đều tr
 
 Số dư của tài khoản `user1` đã âm **25.01$**, nghĩa là mình đã chuyển số tiền vượt quá số dư thật sự – dấu hiệu rõ ràng của **Race Condition**.
 
-### Câu hỏi từ TryHackMe:
+### Câu hỏi từ TryHackMe
 
 > You need to get either of the accounts to get more than $100 of credit to get the flag. What is the flag that you obtained?
 
