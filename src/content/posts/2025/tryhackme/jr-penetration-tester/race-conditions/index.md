@@ -194,8 +194,6 @@ Các bước phát hiện thường bao gồm:
 - Phân tích **trạng thái hệ thống (state)** để xác định các "khoảnh khắc nguy hiểm"
 - Sử dụng công cụ như **Burp Suite Repeater** hoặc các công cụ tương đương để tạo điều kiện race
 
----
-
 ### Vậy làm thế nào để phòng tránh?
 
 #### **Cơ chế đồng bộ (Synchronization Mechanisms)**
@@ -203,8 +201,6 @@ Các bước phát hiện thường bao gồm:
 Các ngôn ngữ lập trình hiện đại hỗ trợ **cơ chế khóa (lock)**. Khi một tiến trình đã lock một tài nguyên (ví dụ như một biến, một tài khoản...), các tiến trình khác **phải đợi đến khi tài nguyên được mở khóa** mới được truy cập tiếp.
 
 > Điều này đảm bảo rằng **không có hai tiến trình truy cập và sửa cùng một tài nguyên tại cùng thời điểm**.
-
----
 
 #### **Thao tác nguyên tử (Atomic Operations)**
 
@@ -218,8 +214,6 @@ Một thao tác nguyên tử là thao tác **không thể bị chia nhỏ hay gi
 > - Ghi log  
 >
 > Nếu quy trình này **không nguyên tử**, thì một thread khác có thể chen vào giữa các bước → gây lỗi.
-
----
 
 #### **Giao dịch cơ sở dữ liệu (Database Transactions)**
 
